@@ -1,0 +1,21 @@
+* Usage
+
+1. Clone your ~compiler-project-USERNAME~ repo into the root of this grading repo.
+2. Setup your environment per the compiler-project README.
+3. From the root of this repository, run one of the tests on your repo with ~run.sh~.  For example,
+
+   #+begin_src bash
+   bash run.sh ir.sh compiler-project-USERNAME
+   #+end_src
+
+
+* Test scripts
+
+| Script     | Description               |
+|------------+---------------------------|
+| setup.sh   | Installs the compiler.    |
+| ir.sh      | Tests While2IR.           |
+| cfg.sh     | Tests ControlFlow.py.     |
+| local.sh   | Tests local Optimizer.py  |
+| global.sh  | Tests global Optimizer.py |
+| codegen.sh | Tests CodeGen.py          |
