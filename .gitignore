@@ -1,0 +1,9 @@
+/.vagrant/
+*~
+/compiler-project-*
+/lib/
+/notes.org
+/students.csv
+/hiddentests/
+/all.sh
+/README.html
