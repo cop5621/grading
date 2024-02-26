@@ -19,3 +19,22 @@
 | local.sh   | Tests local Optimizer.py  |
 | global.sh  | Tests global Optimizer.py |
 | codegen.sh | Tests CodeGen.py          |
+
+
+* Grading schema
+
+** Setup
+
+| Points | Criterion                              |
+|--------+----------------------------------------|
+| 5pt    | Compiler installs and given tools run. |
+| 5pt    | TOTAL                                  |
+
+
+** IR
+
+| Points | Criterion                                                                           |
+|--------+-------------------------------------------------------------------------------------|
+| 2pt    | IR output is correct for all test cases (prorated by number of correct test cases). |
+| 3pt    | Source code shows genuine effort to implement visitors correctly.                   |
+| 5pt    | TOTAL                                                                               |
