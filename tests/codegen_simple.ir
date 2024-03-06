@@ -1,0 +1,4 @@
+0: _t0 := 1
+1: c := _t0
+2: _t1 := c + inparam
+3: outparam := _t1

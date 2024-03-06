@@ -1,0 +1,5 @@
+if inparam > 0 then
+outparam := 1
+else
+outparam := 2
+end

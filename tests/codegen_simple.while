@@ -1,0 +1,4 @@
+begin
+c := 1;
+outparam := c + inparam
+end

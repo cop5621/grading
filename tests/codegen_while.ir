@@ -1,0 +1,15 @@
+0: _t0 := 1
+1: outparam := _t0
+2: _t1 := 1
+3: _t3 := _t1 - inparam
+4: if _t3 < 0 goto 7
+5: _t2 := 0
+6: goto 8
+7: _t2 := 1
+8: if _t2 = 0 goto 15
+9: _t4 := 1
+10: _t5 := inparam - _t4
+11: inparam := _t5
+12: _t6 := outparam * inparam
+13: outparam := _t6
+14: goto 2

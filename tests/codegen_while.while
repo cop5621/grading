@@ -1,0 +1,7 @@
+begin
+outparam := 1;
+while inparam > 1 do begin
+inparam := inparam - 1;
+outparam := outparam * inparam
+end
+end
