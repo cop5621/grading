@@ -38,3 +38,11 @@
 | 2pt    | IR output is correct for all test cases (prorated by number of correct test cases). |
 | 3pt    | Source code shows genuine effort to implement visitors correctly.                   |
 | 5pt    | TOTAL                                                                               |
+
+** CFG
+
+| Points | Criterion                                                                                 |
+|--------+-------------------------------------------------------------------------------------------|
+| 2pt    | CFG output appears correct for all test cases (prorated by number of correct test cases). |
+| 3pt    | Source code shows genuine effort to implement leader discovery correctly.                 |
+| 5pt    | TOTAL                                                                                     |
