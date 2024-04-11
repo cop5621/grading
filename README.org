@@ -11,14 +11,13 @@
 
 * Test scripts
 
-| Script     | Description               |
-|------------+---------------------------|
-| setup.sh   | Installs the compiler.    |
-| ir.sh      | Tests While2IR.           |
-| cfg.sh     | Tests ControlFlow.py.     |
-| local.sh   | Tests local Optimizer.py  |
-| global.sh  | Tests global Optimizer.py |
-| codegen.sh | Tests CodeGen.py          |
+| Script       | Description                         |
+|--------------+-------------------------------------|
+| setup.sh     | Installs the compiler.              |
+| ir.sh        | Tests While2IR.                     |
+| cfg.sh       | Tests ControlFlow.py.               |
+| optimizer.sh | Tests local and global Optimizer.py |
+| codegen.sh   | Tests CodeGen.py                    |
 
 
 * Grading schema
@@ -46,3 +45,27 @@
 | 2pt    | CFG output appears correct for all test cases (prorated by number of correct test cases). |
 | 3pt    | Source code shows genuine effort to implement leader discovery correctly.                 |
 | 5pt    | TOTAL                                                                                     |
+
+** Local
+
+| Points | Criterion                                                                                         |
+|--------+---------------------------------------------------------------------------------------------------|
+| 2pt    | Interpreter output appears correct for all test cases (prorated by number of correct test cases). |
+| 3pt    | Source code shows genuine effort to implement leader discovery correctly.                         |
+| 5pt    | TOTAL                                                                                             |
+
+** Global
+
+| Points | Criterion                                                                                         |
+|--------+---------------------------------------------------------------------------------------------------|
+| 2pt    | Interpreter output appears correct for all test cases (prorated by number of correct test cases). |
+| 3pt    | Source code shows genuine effort to implement leader discovery correctly.                         |
+| 5pt    | TOTAL                                                                                             |
+
+** CodeGen
+
+| Points | Criterion                                                                                      |
+|--------+------------------------------------------------------------------------------------------------|
+| 2pt    | Compiled output appears correct for all test cases (prorated by number of correct test cases). |
+| 3pt    | Source code shows genuine effort to implement leader discovery correctly.                      |
+| 5pt    | TOTAL                                                                                          |
