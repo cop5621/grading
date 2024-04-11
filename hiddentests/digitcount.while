@@ -1,0 +1,18 @@
+begin
+	x := inparam;
+	if x < 0 then
+		x := x * (0 - 1)
+	else
+		skip;
+
+	count := 0;
+
+	while x >= 10 do begin
+		x := x / 10;
+		count := count + 1
+	end;
+
+	count := count + 1;
+
+	outparam := count
+end

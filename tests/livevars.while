@@ -1,0 +1,7 @@
+begin
+x := inparam;
+y := x;
+x := 10;
+z := y + x;
+outparam := z
+end
