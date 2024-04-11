@@ -1,4 +1,4 @@
-for test in ../tests/constprop.while ../tests/dce.while ../tests/seq.while ../tests/livevars.while; do
+for test in ../tests/constprop.while ../tests/dce.while ../tests/seq.while ../tests/livevars.while ../hiddentests/digitcount.while; do
 	echo $test
   stem=${test%.while}
   outir=${stem}.ir
